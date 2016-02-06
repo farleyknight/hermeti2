@@ -1,5 +1,3 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <strong>Question:</strong>
   <%= @card.question %>
@@ -8,6 +6,11 @@
 <p>
   <strong>Answer:</strong>
   <%= @card.answer %>
+</p>
+
+<p>
+  <strong>Hint:</strong>
+  <%= @card.hint %>
 </p>
 
 <%= link_to 'Edit', edit_card_path(@card) %> |
