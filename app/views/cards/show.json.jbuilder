@@ -1,1 +1,1 @@
-json.extract! @card, :id, :question, :answer, :created_at, :updated_at
+json.extract! @card, :id, :question, :answer, :hint, :created_at, :updated_at
